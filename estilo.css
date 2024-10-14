@@ -1,0 +1,87 @@
+/* 
+  Estilos gerais do corpo da página
+*/
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #f0f0f0;
+}
+
+/* 
+  Logo
+*/
+.logo {
+  display: block;
+  margin: 0 auto 10px;
+  width: 150px;
+  height: auto;
+}
+
+/* 
+  Containers
+*/
+.container {
+  margin-top: 10px;
+}
+
+.container-centered {
+  margin-top: 10px;
+}
+
+.vh-100 {
+  height: calc(100vh - 10px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* 
+  Card de histórico
+*/
+.card-historico {
+  border: 2px solid #007bff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* 
+  Link da página de login
+*/
+.paginaLogin {
+  text-decoration: none;
+}
+
+/* 
+  Navbar
+*/
+.navbar {
+  background-color: #2ecc71 !important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: white !important;
+}
+
+/* 
+  Media Queries para responsividade
+*/
+
+/* Telas médias (tablets) */
+@media (max-width: 768px) {
+  .card {
+    margin: 20px;
+  }
+
+  .logo {
+    width: 120px;
+  }
+}
+
+/* Telas pequenas (celulares) */
+@media (max-width: 576px) {
+  .card {
+    margin: 10px;
+  }
+
+  .logo {
+    width: 100px;
+  }
+}
